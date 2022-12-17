@@ -1,0 +1,14 @@
+{
+    "name": "Paragraph Background Color",
+    "manifest_version": 2,
+    "version": "0.001",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://medium.com/*",
+                "https://medium.com/*"
+            ],
+            "js": ["content.js"]
+        }
+    ]
+}
