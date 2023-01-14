@@ -1,0 +1,12 @@
+{
+    "name": "New Tab Override",
+    "manifest_version": 2,
+    "version": "0.001",
+    "chrome_url_overrides": {
+        "newtab": "overridePage.html"
+    },
+    
+    "browser_action": {
+        "default_icon": "logo512.png"
+    }
+}

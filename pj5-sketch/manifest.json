@@ -1,0 +1,14 @@
+{
+    "name": "PJ5 Sketch",
+    "version": "0.2",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": [
+                "p5/p5.js",
+                "sketch.js"
+            ]
+        }
+    ]
+}

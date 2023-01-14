@@ -1,0 +1,15 @@
+{
+    "name": "New Tab Override Two",
+    "manifest_version": 2,
+    "version": "0.001",
+    "web_accessible_resources": [
+        "kittens/*.jpg"
+    ],
+
+    "chrome_url_overrides": {
+        "newtab": "overridePage.html"
+    },
+    "browser_action": {
+        "default_icon": "logo512.png"
+    }
+}
